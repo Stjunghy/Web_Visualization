@@ -1,0 +1,68 @@
+/*** S T Y L E ! ! ! ***/
+
+.navbar {
+    background: hsl(0, 0%, 100%);font-size: 20px;padding-left: 100px;padding-right: 100px;
+  }
+.navbar-brand {
+    font-size: 25px;font-family: Book Antiqua;font-weight: bold;color: rgb(255, 255, 255);background: rgb(15, 168, 168);
+}
+.navbar li a {
+    display: block;color: rgb(172, 172, 172);
+  }
+
+.container {
+    display: block;background-color: white;
+}
+
+.container h1 {
+    color:  rgb(15, 168, 168);font-family: Book Antiqua;font-weight: bold;margin-left: 10px;
+}
+
+.container h2 {
+    color:  rgb(15, 168, 168);padding-top: 30px;padding-left: 20px;font-family: Book Antiqua;font-weight: bold;
+}
+.container img {
+    display: inline;margin: 20px 20px;
+}
+.container p {
+    display: block;padding: 10px;line-height: 2.2;padding-left: 20px;padding-right: 20px;color: rgb(128, 128, 128);
+}
+
+.col-lg-8 {
+    border-right: solid rgb(226, 225, 225);border-right-width: 40px;padding: 40px;
+}
+
+.col-md-6 {
+    margin-left: -10px;
+}
+.container h3 {
+    color:  rgb(15, 168, 168);text-align: center;font-family: Book Antiqua;font-weight: bold;
+}
+
+#maintable {  
+    width: 100%;border-collapse: collapse;border-spacing: 40px;padding: 50px;
+}
+
+#maintable td, th { border: 1px solid #CCC; 
+text-align:  center;}  
+
+#maintable th {  
+    background: #F3F3F3; /* THE GREY BACKGROUND */ font-weight: bold; /* WE WANT THESE BOLDED */
+}
+
+#maintable td {  
+    background: #FAFAFA; /* Lighter shade */ text-align: center; /* Centering the text */
+}
+
+.boxx {
+    border: solid rgb(15, 168, 168);
+}
+
+@media (max-width: 800px)
+{
+    .col-lg-8 {border-bottom: solid rgb(226, 225, 225); border-bottom-width: 40px; border-right: 20px;}
+}
+
+
+
+
